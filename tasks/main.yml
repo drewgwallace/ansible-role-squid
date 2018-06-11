@@ -1,7 +1,7 @@
+---
 # Purpose: Main task imports for squid
 # Last Updated: 2018.06.11
 # Notes:
----
 
 
 - include_tasks: os_vars.yml
