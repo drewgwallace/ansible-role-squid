@@ -1,0 +1,8 @@
+---
+# Purpose: Debian specific squid vars
+# Last Updated: 2018.06.11
+# Notes:
+
+
+squid_package: squid
+squid_service: squid

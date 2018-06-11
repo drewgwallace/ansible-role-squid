@@ -1,0 +1,11 @@
+# Purpose: Main task imports for squid
+# Last Updated: 2018.06.11
+# Notes:
+---
+
+
+- include_tasks: os_vars.yml
+
+- include_tasks: squid_install.yml
+
+- include_tasks: squid_configure.yml

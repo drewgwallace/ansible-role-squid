@@ -1,6 +1,8 @@
 ---
-# roles/squid/tasks/squid)install.yml: Installation 'squid' role. Called by main.yml
-# Load a variable file based on the OS type, or a default if not found.
+# Purpose: Template the squid configuration file
+# Last Updated: 2018.06.11
+# Notes:
+  
   
 - name: Regenerate /etc/squid/squid.conf file
   template:
@@ -9,7 +11,5 @@
     owner: proxy
     group: proxy
     backup: yes
-  # with_items: 
-    # - "{{ squid_networks }}"
   notify: "Restart Squid Service"
 
