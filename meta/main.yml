@@ -3,7 +3,7 @@ dependencies: []
 
 galaxy_info:
   author: drewgwallace
-  description: Install squid proxy services
+  description: Install squid proxy services.
   galaxy_tags:
     - proxy
     - http
